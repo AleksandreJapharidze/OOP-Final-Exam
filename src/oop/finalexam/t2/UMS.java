@@ -57,7 +57,7 @@ class Student {
     }
 
     public List<LearningCourse> getCourses() {
-        return Collections.unmodifiableList(courses); // Return unmodifiable view
+        return Collections.unmodifiableList(courses);
     }
 
     public void addCourse(LearningCourse course) {
